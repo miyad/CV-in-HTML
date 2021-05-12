@@ -51,11 +51,11 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: darkgrey;
         color: beige;
-        top: 3px;
+        top: 5px;
     }
     
     .title {
-        left: 10px;
+        text-align: center;
     }
     
     .edu {
@@ -68,7 +68,7 @@
     
     .eduitem {
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: 25% 35% auto auto;
         position: relative;
         top: 10px;
         left: 20px;
@@ -77,11 +77,20 @@
         background-color: rgb(226, 236, 241);
         font-size: medium;
         width: 95%;
+        text-align: center;
+        vertical-align: middle;
     }
     
     .evenColumn {
         position: relative;
-        left: 10px;
+        text-align: center;
+        background-color: gainsboro;
+    }
+    
+    .oddColumn {
+        position: relative;
+        text-align: center;
+        background-color: rgb(217, 248, 241);
     }
     
     .section {
@@ -92,13 +101,39 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
+    .titleBack {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        display: grid;
+        grid-template-columns: 30% auto;
+        background-color: white;
+        left: 20px;
+        top: 5px;
+        width: 98%;
+        font-size: medium;
+        text-align: center;
+    }
+    
     .projectItem {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: relative;
         display: grid;
         grid-template-columns: 30% auto;
-        background-color: rgb(226, 236, 241);
-        left: 10px;
+        background-color: rgb(220, 231, 225);
+        left: 20px;
+        top: 3px;
+        width: 98%;
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .skillItem {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        display: grid;
+        grid-template-columns: 50% auto;
+        background-color: rgb(206, 214, 224);
+        left: 20px;
         top: 5px;
         width: 98%;
         font-size: medium;
@@ -109,9 +144,42 @@
         position: relative;
         display: grid;
         grid-template-columns: 30% auto;
-        background-color: rgb(167, 211, 233);
-        left: 10px;
-        top: 5px;
+        background-color: rgb(234, 236, 226);
+        left: 20px;
+        top: 3px;
         width: 98%;
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .additional {
+        position: relative;
+        text-align: center;
+        background-color: antiquewhite;
+    }
+    
+    .additionalItem {
+        position: relative;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+        left: 10px;
+        background-color: rgb(224, 206, 168);
+    }
+    
+    .additionalItemEven {
+        position: relative;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+        left: 10px;
+        background-color: azure;
+    }
+    
+    .accademic {
+        position: relative;
+        background-color: cornsilk;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: medium;
     }
